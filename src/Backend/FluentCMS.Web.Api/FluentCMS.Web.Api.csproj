@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FluentCMS.Services\FluentCMS.Services.csproj" />
+    <ProjectReference Include="..\Repositories\FluentCMS.Repositories.LiteDB\FluentCMS.Repositories.LiteDB.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Repositories\FluentCMS.Repositories.Abstractions\FluentCMS.Repositories.Abstractions.csproj" />
-  </ItemGroup>
-
 </Project>
